@@ -10,4 +10,12 @@ output "xyz" {
 // Their are 3 types of variables. string type, boolean type and number
 
 output "abc" {
-  value = ${var.b}
+  value = "Values of a = ${var.a}"
+}
+
+output "b" {
+  value = var.b
+}
+
+variable "b" {}
+
